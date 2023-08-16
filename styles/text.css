@@ -1,0 +1,39 @@
+section.text{
+    margin-bottom: 45px;
+}
+
+div.text{ 
+    display: flex;
+    align-items: flex-start;
+    margin-top: 75px;
+    margin-bottom: 30px;
+}
+
+div.text p:not(:last-child){
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+div.text p:not(:last-child)::after{
+    content:"";
+    background: url(../images/Ellipse\ 15.png);
+    width: 6px;
+    height: 6px;
+    margin-left: 15px;
+}
+
+section.text a{
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+section.text a::before{
+    content:"";
+    display: inline-block;
+    background: url('../images/eva_arrow-ios-upward-outline\ \(1\).png');
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
