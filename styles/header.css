@@ -26,7 +26,6 @@ div.link {
 
 .link address {
     margin-right: 60px;
-    height: 24px;
 }
 
 .tel::before {
@@ -43,8 +42,80 @@ div.link {
     font-size: 18px;
     text-decoration: none;
     color: #000;
-    font-family: 'Gilroy', sans-serif;
-    font-style: normal;
     font-weight: 400;
     line-height: 24px;
+}
+
+
+.icon-card{
+    margin-right: 20px;
+}
+
+form{
+    width: 345px;
+    height: 54px;
+    border-radius: 10px;
+    border: 1px solid #BDBDBD;
+    background: #F2F2F2;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 16px 20px 8px;
+    background-color: #F2F2F2;
+}
+
+input{
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 400;
+    color:  #828282;
+    background-color: inherit;
+}
+
+button.search {
+    width: 25px;
+    height: 25px;
+    padding: 2.5px 2.5px;
+    background: url(../image/Search.png);
+    border: none;
+    align-self: flex-end;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav a{
+    color: #4F4F4F;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+a.dropdown{
+    display: flex;
+    align-items: center;
+}
+
+a.dropdown::after{
+    content:"";
+    background: url('../image/eva_arrow-ios-upward-outline.png');
+    line-height: 18px;
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+nav a:not(:last-child){
+    margin-right: 40px;
 }
