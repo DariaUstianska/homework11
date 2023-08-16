@@ -4,6 +4,7 @@
 
 body {
     font-family: 'Gilroy', sans-serif;
+    margin: 0px;
 }
 
 .wrapped{
@@ -14,4 +15,8 @@ body {
 
 a {
     text-decoration: none;
+}
+
+address{
+    font-style: normal;
 }
