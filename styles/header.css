@@ -13,7 +13,7 @@ section.logo {
 }
 
 a.logo {
-    background: url('../image/лого.png');
+    background: url('../images/лого.png');
     width: 244px;
     height: 45px;
 }
@@ -30,7 +30,7 @@ div.link {
 
 .tel::before {
     content:"";
-    background: url('../image/carbon_phone.png');
+    background: url('../images/carbon_phone.png');
     width: 25px;
     height: 25px;
     margin-right: 10px;
@@ -78,7 +78,7 @@ button.search {
     width: 25px;
     height: 25px;
     padding: 2.5px 2.5px;
-    background: url(../image/Search.png);
+    background: url(../images/Search.png);
     border: none;
     align-self: flex-end;
 }
@@ -109,7 +109,7 @@ a.dropdown{
 
 a.dropdown::after{
     content:"";
-    background: url('../image/eva_arrow-ios-upward-outline.png');
+    background: url('../images/eva_arrow-ios-upward-outline.png');
     line-height: 18px;
     width: 15px;
     height: 15px;
