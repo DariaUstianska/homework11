@@ -1,0 +1,38 @@
+section.pagination{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+div.pagination a:not(:last-child){
+    margin-right: 20px;
+}
+
+.arrow:first-child{
+    margin-right: 25px;
+}
+
+.arrow:last-child{
+    margin-left: 25px;
+}
+
+.pagination img{
+    object-fit: contain;
+}
+
+.pagination .active{
+    color: #219653;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.pagination a{
+    color: #828282;
+    font-size: 18px;
+    font-weight: 500;
+}
